@@ -33,7 +33,7 @@ public class Practice01 {
 	}
 	// 집어 넣어주는 값으로 구구단 찍기
 	// 오버로딩(Overloading) : 같은 이름의 메소드명을 매개변수를 달리 하여 여러 번 같은 코드를 사용할 수 있도록 하는 것
-	
+	// 오버로딩이 가능할 때 = 매개변수의 "개수, 타입, 위치"
 	public static void printGugudan2(int dan) { // 값을 넣어야 하기 때문에 매개변수가 필요, 매개변수가 달라서 Gugudan2로 숫자를 바꿀 필요는 사실 없음
 		for (int i = 1; i < 10; i++) {
 			System.out.printf("%d * %d = %d\n", dan, i, i*dan);
