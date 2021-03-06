@@ -18,12 +18,11 @@ public class PhoneTest {
 //		myPhone.memory = 512;
 		
 		Phone p1 = new Phone("갤럭시 s20", "빨강", 256);
-//		Phone p2 = new Phone(phoneName, owner, color, memory, phoneNumber);
-//		int p1Memory = p1.getMemory();
-//		System.out.println("p1의 메모리는" + p1Memory);		
-//		p1.setMemory(512);
-//		p1Memory = p1.getMemory();
-//		System.out.println("p1의 메모리는" + p1Memory);
+		int p1Memory = p1.getMemory();
+		System.out.println("p1의 메모리는" + p1Memory);		
+		p1.setMemory(512);
+		p1Memory = p1.getMemory();
+		System.out.println("p1의 메모리는" + p1Memory);
 				
 // 나의 폰의 각각의 인스턴스, 설계도에는 변동이 없음
 		

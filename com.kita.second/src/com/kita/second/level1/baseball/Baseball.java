@@ -12,8 +12,8 @@ public class Baseball {
 	}
 	
 	// 메소드
-	// 랜덤값을 배열 안에 set해주기 setRandoms()
-	// 배열 안의 랜덤값 하나 뽑기 getRnum()
+	// 1)랜덤값을 배열 안에 set해주기 setRandoms()
+	// 2) 배열 안의 랜덤값 하나 뽑기 getRnum()
 	
 	
 //	for(int i=0; i<arr.length; i++) {
@@ -26,9 +26,9 @@ public class Baseball {
 //		}
 //	}
 	
-	// 중복되지 않게 배열해주기
+	// 1) 중복되지 않게 배열해주기
 	
-	void setRandoms() {
+	private void setRandoms() { //private로 외부에서 사용 차단하기, 랜던값을 바꾸지 못하도록
 		int max = 9;
 		int min = 1;
 		for(int i=0; i<rArr.length; i++) {
@@ -43,9 +43,27 @@ public class Baseball {
 		
 	}
 	
+	// 2) 하나의 값만 getRNum()
+	
 	int getRnum(int idx) {
 		return rArr[idx];
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 
 }
