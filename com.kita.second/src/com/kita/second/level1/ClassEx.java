@@ -6,6 +6,22 @@ public class ClassEx {
 	String filed2;
 	int[] filed3;
 	
+	//static 예제
+	int filed4;
+	static int filed5;
+	
+	// static 예제 메소드
+	void method4() {}
+	static void method5() {}
+	
+	static void methodTest() {
+//		this.filed4 = 10; static 메소드일 때 this.~의 인스턴트들을 데려올 수 없음
+//		this.method4();
+		
+		filed5 = 10; // 같은 static은 데려올 수 있음
+		method5();
+	}
+	
 	// 생성자 (필드를 초기화 시키기 위한 목적, 메소드를 넣고 찍을 때 사용)
 	public ClassEx() { // << 만약, 만들지 않아도 디폴트 값으로 컴파일러가 넣어줄 수 있음
 		

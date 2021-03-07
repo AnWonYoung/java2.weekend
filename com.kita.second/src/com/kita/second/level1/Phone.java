@@ -9,6 +9,8 @@ public class Phone {
 	private int memory;
 	private String phoneNumber; // int를 안 쓰는 이유 = 0부터 시작하는 수들은 다른 수가 나옴
 	
+	
+	// set, get 사용
 	void setColor(String color) {
 		this.color = color;
 	}
