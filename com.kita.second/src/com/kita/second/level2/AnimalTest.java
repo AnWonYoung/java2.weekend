@@ -5,7 +5,7 @@ public class AnimalTest {
 		Dog d1 = new Dog("누렁이");
 		System.out.println("d1의 이름은 " + d1.name);
 		d1.cry();
-		d1.barking();
+		d1.bark();
 		
 		Animal a1 = new Animal("미미");
 		System.out.println("a1의 이름은 " + a1.name);
@@ -19,7 +19,7 @@ public class AnimalTest {
 //		ani.barking(); 			Dog타입인데도 불가능함, 앞에 타입이 이미 ani이며 부모 클래스 안에 없어서 dog까지 갈 수 없어 전달이 불가능함
 		
 		Dog d = (Dog)ani;
-		d.barking(); 			// 강제 형변환으로 부모 타입을 자식타입으로 바꿔서 자식 클래스 메소드를 사용
+		d.bark(); 			// 강제 형변환으로 부모 타입을 자식타입으로 바꿔서 자식 클래스 메소드를 사용
 		
 	}
 }

@@ -11,3 +11,4 @@ public class Calc {
 				  // 생성이 가능해야 접근이 된다는 개념, 다만 static은 바로 사용이 가능
 
 }
+

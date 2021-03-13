@@ -7,7 +7,7 @@ public class Dog extends Animal { // extends 후 가져올 부모 클래스 명
 	public Dog(String name) {
 		super(name); // 부모 클래스의 생성자를 가지고 온다는 뜻 this.name = name;으로 명시할 필요가 없음
 		super.name = "흰둥이"; // this 안에 값을 넣듯이 super로도 넣는 게 가능함(잘 사용하진 않음)
-		super.age = age;
+		this.age = 10;
 		this.cutiness = true; // 자식 클래스에만 있으니 this.로 적어주기
 //		super.type = ""; private 접근 불가
 	}
@@ -18,7 +18,7 @@ public class Dog extends Animal { // extends 후 가져올 부모 클래스 명
 	}
 	
 	
-	void barking() {
+	void bark() {
 		System.out.println("개가 짖는다.");
 	}
 

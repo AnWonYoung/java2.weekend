@@ -1,9 +1,6 @@
 package com.kita.second.level2;
 
 public class Overwatch extends Game {
-	public Overwatch (String title) {
-		super(title);
-	}
 	
 	@Override
 	void playGame() {
