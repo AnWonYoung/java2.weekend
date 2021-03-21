@@ -18,7 +18,7 @@ public class MyBall {
 	// 내 배열 안의 숫자값 뽑기 getMyNum()
 	void setNumbers() {
 		for(int i=0; i<myArr.length; i++) { // myArr의 길이만큼 scanner 사용해서 값 입력받기
-		System.out.printf("깂%d: " + i+1);
+		System.out.printf("값%d: " + i+1);
 		String val = scan.next();
 		try {
 			myArr[i] = Integer.parseInt(val);
